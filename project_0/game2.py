@@ -1,4 +1,4 @@
-from gettext import npgettext
+
 import numpy as np 
 def random_predict(number:int=1)->int:
     
@@ -32,6 +32,6 @@ def score_game(random_predict)->int:
     print(f'Ваш алгоритм угадывает число в среднем за {score} попыток')
     return score
 
-if__name__=='__main__'
-score_game(random_predict)
+if __name__ == '__main__':
+    score_game(random_predict)
 
